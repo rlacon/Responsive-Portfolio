@@ -57,6 +57,19 @@ body {
     overflow: hidden;
 }
 
+  .contactForm {
+    background: white;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
 h2 {
     padding-bottom: 25px;
     margin: 0px;
@@ -142,15 +155,74 @@ footer {
     line-height: 5em;
 }
 
-@media screen and (max-width: 640px) {
-  h1 {
-    float: none;
+@media screen and (max-width: 980px) {
+  .header a {
+    text-align: center;
+    padding-right: 25px;
+    margin: auto;
   }
   
+  .header-right {
+    float: right;
+    padding-right: 25px;
+
+  }
+  .contactForm {
+    float: left;
+    margin-left: 20px;
+    width: 60%;
+  }
+
+  .pageContent {
+    float: left;
+    margin-left: 20px;
+    width: 60%;
+  }
+
+  #ryanPic {
+    width: 30%;
+    height: auto;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .header a {
+    text-align: center;
+    padding-right: 0px;
+  }
+  
+  .header-right {
+    float: right;
+    padding-left: 25px;
+
+    padding-right: 25px;
+  }
+
+  #ryanPic {
+    width: 60%;
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  .contactForm {
+    width: 85%;
+  }
+  .pageContent {
+
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+    h1 {
+      float: none;
+    }
+  
+    .header a {
       float: none;
       text-align: center;
-
     }
     
     .header-right {
@@ -164,49 +236,21 @@ footer {
     .pageContent {
       width: 85%;
       height: auto;
-
+            margin-left: 10px;
     }
 
-  #ryanPic {
+    #ryanPic {
     width: 100%;
     height: auto;
     padding-bottom: 15px;
-  }
+    }
 
-  .responsiveGallery {
-    width: 450px;
-  }
+    .responsiveGallery {
+    width: 100%;
+    }
 
-  .gallery {
-    width: 80%;
-  }
+    .contactForm {
+      width: 85%;
+      margin-left: 10px;
+    }
 }
-
-/*  @media screen and (max-width: 760px) {
-    .header a {
-
-      text-align: center;
-      padding-right: 0px;
-    }
-    
-    .header-right {
-      float: right;
-      padding-left: 25px;
-
-      padding-right: 0px;
-    }
-  }
-
-  @media screen and (max-width: 980px) {
-    .header a {
-      text-align: center;
-      padding-right: 25px;
-      margin: auto;
-    }
-    
-    .header-right {
-      float: right;
-      padding-right: 25px;
-
-    }
-  }
