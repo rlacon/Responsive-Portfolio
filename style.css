@@ -155,6 +155,7 @@ footer {
     line-height: 5em;
 }
 
+/* Large Desktop Dimensions */
 @media screen and (max-width: 980px) {
   .header a {
     text-align: center;
@@ -186,6 +187,7 @@ footer {
   }
 }
 
+/* Medium Desktop Dimensions */
 @media screen and (max-width: 768px) {
   .header a {
     text-align: center;
@@ -209,13 +211,12 @@ footer {
     width: 85%;
   }
   .pageContent {
-
-    width: 100%;
+    width: 85%;
   }
 }
 
+/* Phone Screen Dimensions */
 @media screen and (max-width: 640px) {
-
     h1 {
       float: none;
     }
